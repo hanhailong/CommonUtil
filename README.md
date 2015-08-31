@@ -5,3 +5,6 @@
 git push origin localbranch:remotebranch
 
 git push origin :remotebranch 删除远程分支
+
+2.将远程分支映射到本地
+git checkout -b localbranch origin/remotebranch
