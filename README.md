@@ -8,3 +8,6 @@ git push origin :remotebranch 删除远程分支
 
 2.将远程分支映射到本地
 git checkout -b localbranch origin/remotebranch
+
+3.git查看某个文件的提交记录
+git log -p 文件名
